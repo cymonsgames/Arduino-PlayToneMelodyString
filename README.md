@@ -27,4 +27,6 @@ playsong() also needs the bpm of the compoition (determining how fast or slow th
 Example: For shave and a hair cut, you can call:
    playsong( "C4-G3G3A3-G3-..B3-C4----", 60, 4, [speakerPin]);
 
-It's just that simple. playsong() will play short or long compositions, as long as you fit them in a string. Included is an exmaple project that plays 2 tunes, a test one, and shave and a hair cut. Feel free to modify or use it however you see fit. I've done my best to comment the code for you.
+It's just that simple. playsong() will play short or long compositions, as long as you fit them in a string. You only need to add playsong.h to your project to use playsong(). Song_Player.ino contains example code that plays 2 tunes, a test one, and shave and a hair cut. Feel free to modify or use it however you see fit. I've done my best to comment the code for you.
+
+
